@@ -1,0 +1,12 @@
+### Get all notifications
+GET http://localhost:3000/notifications
+
+### Create a notification
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "recipientId": "jijigjigsdfjigfjdi",
+  "content": "Você tem uma nova notificação",
+  "category": "meta"
+}
