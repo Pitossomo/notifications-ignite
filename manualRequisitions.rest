@@ -6,7 +6,7 @@ POST http://localhost:3000/notifications
 Content-Type: application/json
 
 {
-  "recipientId": "jijigjigsdfjigfjdi",
+  "recipientId": "{{$guid}}",
   "content": "Você tem uma nova notificação",
   "category": "meta"
 }
